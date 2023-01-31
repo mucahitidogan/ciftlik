@@ -8,32 +8,32 @@ public class Elma extends Agaclar{
 
     @Override
     public void buda() {
-
+        System.out.println("Elma budandı");
     }
 
     @Override
     public void ek() {
-
+        System.out.println("Elma ekildi");
     }
 
     @Override
     public void sula() {
-
+        System.out.println("Elma sulandı");
     }
 
     @Override
     public void gubreVer() {
-
+        System.out.println("Elma gübrelendi");
     }
 
     @Override
     public void topla() {
-
+        System.out.println("Elma toplandı");
     }
 
     @Override
     public void sat() {
-
+        System.out.println("Elma satıldı");
     }
 
     @Override

@@ -1,8 +1,25 @@
 package com.bilgeadam.ciftlik.entity.hayvanlar.kucukbaslar;
 
 public class Koyun extends KucukbasHayvanlar {
-    public Koyun(int kilo, int uzunluk, double yillikGetirisi, double yillikOtMasrafi) {
-        super(kilo, uzunluk, yillikGetirisi, yillikOtMasrafi);
+
+
+    public Koyun(double yillikGetirisi, int hayvanSayisi, double yillikOtMasrafi) {
+        super(yillikGetirisi, hayvanSayisi, yillikOtMasrafi);
+    }
+
+    @Override
+    public void otlariniVer() {
+        System.out.println("Koyunlara ot verildi");
+    }
+
+    @Override
+    public void sutleriniSag() {
+        System.out.println("Koyunlarin sütleri sağıldı");
+    }
+
+    @Override
+    public void besle() {
+        System.out.println("Koyunlar beslendi");
     }
 
     @Override

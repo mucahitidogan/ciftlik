@@ -1,32 +1,15 @@
 package com.bilgeadam.ciftlik.entity.hayvanlar;
 
-public class Hayvan {
+public abstract class Hayvan {
 
-    private int kilo;
-    private int uzunluk;
     private double yillikGetirisi;
     private int hayvanSayisi;
 
-    public Hayvan(int kilo, int uzunluk, double yillikGetirisi,int hayvanSayisi) {
-        this.kilo = kilo;
-        this.uzunluk = uzunluk;
+    public abstract void besle();
+
+    public Hayvan(double yillikGetirisi, int hayvanSayisi) {
         this.yillikGetirisi = yillikGetirisi;
-    }
-
-    public int getKilo() {
-        return kilo;
-    }
-
-    public void setKilo(int kilo) {
-        this.kilo = kilo;
-    }
-
-    public int getUzunluk() {
-        return uzunluk;
-    }
-
-    public void setUzunluk(int uzunluk) {
-        this.uzunluk = uzunluk;
+        this.hayvanSayisi = hayvanSayisi;
     }
 
     public double getYillikGetirisi() {
@@ -37,12 +20,19 @@ public class Hayvan {
         this.yillikGetirisi = yillikGetirisi;
     }
 
+    public int getHayvanSayisi() {
+        return hayvanSayisi;
+    }
+
+    public void setHayvanSayisi(int hayvanSayisi) {
+        this.hayvanSayisi = hayvanSayisi;
+    }
+
     @Override
     public String toString() {
         return "Hayvan{" +
-                "kilo=" + kilo +
-                ", uzunluk=" + uzunluk +
-                ", yillikGetirisi=" + yillikGetirisi +
+                "yillikGetirisi=" + yillikGetirisi +
+                ", hayvanSayisi=" + hayvanSayisi +
                 '}';
     }
 }

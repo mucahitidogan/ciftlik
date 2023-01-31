@@ -2,12 +2,15 @@ package com.bilgeadam.ciftlik.entity.hayvanlar.kucukbaslar;
 
 import com.bilgeadam.ciftlik.entity.hayvanlar.Hayvan;
 
-public class KucukbasHayvanlar extends Hayvan {
+public abstract class KucukbasHayvanlar extends Hayvan {
 
     private double yillikOtMasrafi;
 
-    public KucukbasHayvanlar(int kilo, int uzunluk, double yillikGetirisi, double yillikOtMasrafi) {
-        super(kilo, uzunluk, yillikGetirisi);
+    public abstract void otlariniVer();
+    public abstract void sutleriniSag();
+
+    public KucukbasHayvanlar(double yillikGetirisi, int hayvanSayisi, double yillikOtMasrafi) {
+        super(yillikGetirisi, hayvanSayisi);
         this.yillikOtMasrafi = yillikOtMasrafi;
     }
 

@@ -11,32 +11,32 @@ public class Domates extends TarimBitkileri {
 
     @Override
     public void sok() {
-
+        System.out.println("Domates söküldü");
     }
 
     @Override
     public void ek() {
-
+        System.out.println("Domates ekildi");
     }
 
     @Override
     public void sula() {
-
+        System.out.println("Domates sulandı");
     }
 
     @Override
     public void gubreVer() {
-
+        System.out.println("Domates gübrelendi");
     }
 
     @Override
     public void topla() {
-
+        System.out.println("Domates toplandı");
     }
 
     @Override
     public void sat() {
-
+        System.out.println("Domates satıldı");
     }
 
     @Override

@@ -10,32 +10,32 @@ public class Portakal extends Agaclar{
 
     @Override
     public void buda() {
-
+        System.out.println("Portakal budandı");
     }
 
     @Override
     public void ek() {
-
+        System.out.println("Portakal ekildi");
     }
 
     @Override
     public void sula() {
-
+        System.out.println("Portakal sulandı");
     }
 
     @Override
     public void gubreVer() {
-
+        System.out.println("Portakal gübrelendi");
     }
 
     @Override
     public void topla() {
-
+        System.out.println("Portakal toplandı");
     }
 
     @Override
     public void sat() {
-
+        System.out.println("Portakal satıldı");
     }
 
     @Override

@@ -10,32 +10,32 @@ public class Armut extends Agaclar{
 
     @Override
     public void buda() {
-        System.out.println("Bi");
+        System.out.println("Armut budandı.");
     }
 
     @Override
     public void ek() {
-
+        System.out.println("Armut ekildi");
     }
 
     @Override
     public void sula() {
-
+        System.out.println("Armut sulandı");
     }
 
     @Override
     public void gubreVer() {
-
+        System.out.println("Armut gübrelendi");
     }
 
     @Override
     public void topla() {
-
+        System.out.println("Armut toplandı");
     }
 
     @Override
     public void sat() {
-
+        System.out.println("Armut satıldı");
     }
 
     @Override
